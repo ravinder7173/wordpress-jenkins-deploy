@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:ravinder7173/wordpress-jenkins-deploy.git'
+                    url: 'https://github.com/ravinder7173/wordpress-jenkins-deploy.git'
             }
         }
 
